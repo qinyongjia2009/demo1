@@ -15,6 +15,7 @@ public class HelloController {
 	
 	@GetMapping(value = "/hello")
 	public String hello(){
+		system.out.println("i come from github");
 //		String url = "http://localhost:8081/user/";
 //		HttpMethod method = HttpMethod.GET;
 //		MultiValueMap<String, String> params = new LinkedMultiValueMap<String, String>();
